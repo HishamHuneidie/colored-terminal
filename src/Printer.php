@@ -120,4 +120,14 @@ class Printer
     {
         echo "{$this->text}\n";
     }
+
+    /**
+     * Unwrap to get the text
+     *
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return $this->text;
+    }
 }
