@@ -1,0 +1,20 @@
+{
+    "name": "hishamhuneidie/colored-terminal",
+    "description": "Script to colorize text in terminal",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HishamHuneidie\\ColoredTerminal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hisham",
+            "email": "hhuneidie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.2.*"
+    }
+}

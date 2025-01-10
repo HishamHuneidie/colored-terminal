@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+use HishamHuneidie\ColoredTerminal\BackgroundColor;
+use HishamHuneidie\ColoredTerminal\Printer;
+use HishamHuneidie\ColoredTerminal\TextColor;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+// Print text with a specific color
+Printer::newText('Hello world!')
+       ->setColor(TextColor::YELLOW)
+       ->print();
+
+// Print text with a background color
+Printer::newText('Cambur!')
+       ->setBackground(BackgroundColor::BLUE)
+       ->print();
+
+// Combine text color and background color
+Printer::newText('Cambur!')
+       ->setCombination(BackgroundColor::GREEN, TextColor::RED)
+       ->print();
