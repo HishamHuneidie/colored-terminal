@@ -40,12 +40,12 @@ Printer::newText('Hello world!')
        ->print();
 
 // Print text with a background color
-Printer::newText('Cambur!')
+Printer::newText('Hello Mars!')
        ->setBackground(BackgroundColor::BLUE)
        ->print();
 
 // Combine text color and background color
-Printer::newText('Cambur!')
+Printer::newText('Hello Mercury!')
        ->setColor(TextColor::RED)
        ->setBackground(BackgroundColor::YELLOW)
        ->print();
